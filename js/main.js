@@ -84,8 +84,8 @@ function markMileStone(checkbox, id) {
   } else {
     // back to main list
     milestonesList.appendChild(item);
-    doneList.removeChild(item);
-
+    document.querySelectorAll('.milestones .milestone')
+    
     // task - do the sorting
     // reload list
   }
